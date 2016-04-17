@@ -6,22 +6,20 @@
 
 		<title>Jennifer Wu | Contact</title>
 
-	<!-- Meta Zone -->
-	<meta charset="utf-8">
-	<meta name="description" content="Jordan Mike, typical dutch plants." />
-	<meta name="keywords" content="Jordan Mike, typical dutch plants.">
-	<meta name="robots" content="index, follow, all" />
-	<meta name="author" content="Jordan Mike">
-	<meta name="publisher" content="Jordan Mike">
-	<meta name="geo.placename" content="Amsterdam">
-	<meta name="geo.region" content="NL">
-	<meta name="google" content="notranslate" />
+		<!-- Meta Zone -->
+		<meta charset="utf-8">
+		<meta name="description" content="Jennifer Wu, my humble abode." />
+		<meta name="keywords" content="Jennifer, my humble abode.">
+		<meta name="author" content="Jennifer Wu">
+		<meta name="publisher" content="Jennifer Wu">
+		<meta name="geo.placename" content="T-town">
+		<meta name="geo.region" content="Los Angeles">
 
-	<!-- Viewport -->
-	<meta name="viewport" content="initial-scale=1, user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="apple-mobile-web-app-title" content="Jordan Mike">
+		<!-- Viewport -->
+		<meta name="viewport" content="initial-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="grey" />
+		<meta name="apple-mobile-web-app-title" content="Jennifer Wu">
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -53,10 +51,22 @@
 		</div>
 	</header>
 
-	<div class="hero-image-contact">
+	<div class="hero-image-contact"></div>
+
+	<div class="social-media-icon-contact" style="width:660px; text-align:center; margin-top:40px; margin-left:27%;">
+		<a href="https://www.linkedin.com/in/jennifer-wu-63695593" title="LinkedIn" target="_blank" style="border-bottom: 0px; margin-left:20px; margin-right:5px;"/><img class="social-media-icon" src="img/linkedin.png" alt="LinkedIn Icon" style="width:50px; height:auto; margin-right:5px; margin-left:5px;"></a>
+		<a href="https://www.github.com/wuj00" title="Github" target="_blank" style="border-bottom: 0px; margin-left:5px; margin-right:5px;"/><img class="social-media-icon" src="img/github.png" alt="Github Icon" style="width:60px; height:auto; margin-right:5px; margin-left:10px;"></a>
+		<a href="https://www.behance.net/wuj00" title="Behance" target="_blank" style="border-bottom: 0px; margin-left:5px; margin-right:5px;"/><img class="social-media-icon" src="img/behance.png" alt="Behance Icon" style="width:50px; height:auto; margin-right:5px; margin-left:5px;"></a>
 	</div>
 
-	<div class="main">
+	<div class="main-contact">
+
+		<p>If you're done looking around and you know that you like what you see, then please, let's get connected! I promise it'll be worth your while.</p>
+
+		<p>Email me at <a href="mailto:w.jennifer123@gmail.com" title="Direct mail">w.jennifer123(@)gmail(dot)com</a> to find out further ways to contact me and for me to get to know you better. I hope to hear from you soon!</p>
+
+		<!-- <p>Lorem ipsum dolor sit amet <a href="tel:0629165924" title="Direct call">(0031)6-29165924</a> adipiscing elit. Aenean commodo ligula eget dolor. Aenean magnis dis parturient massa. Cum sociis natoque <a href="mailto:info@jordanmike.nl" title="Direct mail">info@jordanmike.nl</a> penatibus et magnis dis parturient montes, nascetur ridiculus mus Nulla consequat massa quis enim.</p> -->
+
 
 			<?php
 				$action=$_REQUEST['action'];
@@ -65,15 +75,12 @@
 			?>
 
 			<form  action="" method="POST" enctype="multipart/form-data">
-
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus Nulla consequat massa quis enim.</p>
-
-			<p>Lorem ipsum dolor sit amet <a href="tel:0629165924" title="Direct call">(0031)6-29165924</a> adipiscing elit. Aenean commodo ligula eget dolor. Aenean magnis dis parturient massa. Cum sociis natoque <a href="mailto:info@jordanmike.nl" title="Direct mail">info@jordanmike.nl</a> penatibus et magnis dis parturient montes, nascetur ridiculus mus Nulla consequat massa quis enim.</p>
-
+				<h5>Comments? Do tell!</h5>
+				<br>
 			    <input type="hidden" name="action" value="submit">
-			    <input name="name" type="text" value="" size="30" placeholder="First and last name"/><br>
+			    <input name="name" type="text" value="" size="30" placeholder="First and Last name"/><br>
 			    <input name="email" type="text" value="" size="30" placeholder="E-mail"/><br>
-			    <input name="phone" type="text" value="" size="30" placeholder="Phone"/><br>
+			    <input name="phone" type="text" value="" size="30" placeholder="Phone (optional)"/><br>
 			    <input name="subject" type="text" value="" size="30" placeholder="Subject"/><br>
 			    <textarea name="message" rows="7" cols="30" placeholder="Message"></textarea><br>
 			    <input type="submit" value="Send"/>

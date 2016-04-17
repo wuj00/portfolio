@@ -204,10 +204,28 @@ header img:hover {
 /* =Main
 -------------------------------------------------------------- */
 
-.main {
+.main-index {
 	width: 660px;
-	margin: 120px auto;
 	text-align: justify;
+	margin: 120px auto;
+}
+
+.main-webdev {
+	/*width: 660px;*/
+	text-align: center;
+	display: inline-block;
+    margin-left: 9%;
+	margin-top: 20px;
+	margin-bottom: 300px;
+}
+
+.main-contact {
+	width: 660px;
+	text-align: justify;
+	margin-left: 27%;
+	/*margin-right: 120px;*/
+	margin-bottom: 120px;
+	margin-top: 40px;
 }
 
 /* --------------------------------------------------------------
@@ -516,8 +534,9 @@ header {
 -------------------------------------------------------------- */
 
 .main {
-	padding: 0 30px;
+	/*padding-left: 10 30px;*/
 	width: auto;
+	display: inline-block;
 }
 
 /* --------------------------------------------------------------
@@ -552,9 +571,9 @@ header {
 }
 
 #btn {
-  display: block;
+  display: table;
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 80px;
   text-align: center;
   margin: 20px;
@@ -653,9 +672,12 @@ header {
 }
 
 #btn.is-open {
-  width: 400px;
-  height: 160px;
+  width: 80%;
+  height: 650px;
+  z-index: 1000;
+  margin-top: -550px;
 }
+
 #btn.is-open #btn-front {
     pointer-events: none;
     line-height: 160px;
