@@ -26,14 +26,13 @@
 
 	<!-- CSS Stylesheets -->
 	<link rel="stylesheet" href="css/style.css">
+	<link href="css/lightbox.css" rel="stylesheet">
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 
 	<!-- Javascript -->
 	<script type="text/javascript" src="js/main.js"></script>
-
-	<link href="css/lightbox.css" rel="stylesheet">
 
 
 </head>
@@ -70,15 +69,34 @@
 
 		<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus Nulla consequat massa <a href="contact.html" title="Contact">get in touch</a> quis enim. orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus Nulla consequat massa quis enim.</p> -->
 
-		<hr>
-		</br>
-		</br>
+		<hr></br></br>
 
-	  <section>
-	    <div>
-	      <a class="example-image-link" href="img/gallery-image-one.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-one.jpg"/></a><a class="example-image-link" href="img/gallery-image-two.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-two.jpg"/></a><a class="example-image-link" href="img/gallery-image-three.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-three.jpg"/></a><a class="example-image-link" href="img/gallery-image-seven.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-seven.jpg"/></a><a class="example-image-link" href="img/gallery-image-eight.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-eight.jpg"/></a><a class="example-image-link" href="img/gallery-image-three.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-three.jpg"/></a><a class="example-image-link" href="img/gallery-image-four.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-four.jpg"/></a><a class="example-image-link" href="img/gallery-image-five.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-five.jpg"/></a><a class="example-image-link" href="img/gallery-image-six.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-six.jpg"/></a><a class="example-image-link" href="img/gallery-image-seven.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-seven.jpg"/></a><a class="example-image-link" href="img/gallery-image-eight.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-eight.jpg"/></a><a class="example-image-link" href="img/gallery-image-three.jpg" data-lightbox="example-set"><img class="example-image" src="img/gallery-thumb-three.jpg"/></a>
-	    </div>
-	  </section>
+
+		<!-- <img id="myImg" src="img_fjords.jpg" alt="Trolltunga, Norway" width="300" height="200"> -->
+
+
+		<section>
+	  	    <div class="container" style="display:inline-table;">
+	  	      <img id="myImg" class="grid-image" src="img/gallery-thumb-one.jpg" alt="WORKKKKKKK"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-two.jpg" alt="?????"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-three.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-seven.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-eight.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-three.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-four.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-five.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-six.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-seven.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-eight.jpg"/>
+			  <img id="myImg" class="grid-image" src="img/gallery-thumb-three.jpg"/>
+	  		</div>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="modalImg"/>
+			  <div id="caption"></div>
+			</div>
+	  	</section>
 	</div>
 
 	<footer>
@@ -89,7 +107,8 @@
         </p>
 	</footer>
 
-	<script src="js/lightbox.js"></script>
+	<script src="js/modal.js"></script>
+	<!-- <script src="js/lightbox.js"></script> -->
 
 </body>
 </html>
