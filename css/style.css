@@ -1,13 +1,16 @@
-/*
-
-Domain: http://www.rubenstom.nl/jordanmike/
-Author: Ruben Stom
-Description: Jordan Mike is a clean website theme.
-Version: 1.2
-
 /* --------------------------------------------------------------
 /* =Basis
 -------------------------------------------------------------- */
+
+@font-face {
+    font-family: Snowberry Destroyed;
+    src: url(fonts/SnowberryDestroyed.otf) format('opentype');
+}
+
+@font-face {
+	font-family: Moon;
+	src: url(fonts/Moon Light.otf) format('opentype');
+}
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -224,8 +227,8 @@ header img:hover {
 	text-align: justify;
 	margin-left: 27%;
 	/*margin-right: 120px;*/
+	margin-top: 80px;
 	margin-bottom: 120px;
-	margin-top: 40px;
 }
 
 /* --------------------------------------------------------------
