@@ -3,12 +3,12 @@
 -------------------------------------------------------------- */
 
 @font-face {
-    font-family: Snowberry Destroyed;
+    font-family: "Snowberry Destroyed";
     src: url(fonts/SnowberryDestroyed.otf) format('opentype');
 }
 
 @font-face {
-	font-family: Moon;
+	font-family: "Moon";
 	src: url(fonts/Moon Light.otf) format('opentype');
 }
 
