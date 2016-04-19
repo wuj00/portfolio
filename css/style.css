@@ -1044,7 +1044,7 @@ Projects
   width: 100%;
   top: 38%;
   left: 0;
-  color: #ffffff;
+  color: snow;
   -webkit-transform: translateY(-37.5vh);
   -moz-transform: translateY(-37.5vh);
   -ms-transform: translateY(-37.5vh);
@@ -1065,7 +1065,7 @@ Projects
   bottom: -10px;
   width: 40px;
   height: 1px;
-  background: #ffffff;
+  background: snow;
   -webkit-transform: translateX(-50%) scale(0);
   -moz-transform: translateX(-50%) scale(0);
   -ms-transform: translateX(-50%) scale(0);
@@ -1104,7 +1104,7 @@ Projects
   line-height: 1.4;
   padding: .4em;
   opacity: .8;
-  color: snow;
+  color: white;
   margin-top: 30px;
 }
 @media only screen and (min-width: 1024px) {
